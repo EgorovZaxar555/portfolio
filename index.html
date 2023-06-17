@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Портфолио</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="page_content">
+    <h2 class="title">Обо мне</h2>
+    <div class="container">
+      <section class="gallery">
+        <div class="category">
+          <p class="category_title">Категории</p>
+          <div class="category_block">
+            <a href="index.html" class="link">Главная</a>
+            <a href="galery.html" class="link">Документы</a>
+            <a href="project.html" class="link">Скриншоты проектов</a>
+          </div>
+
+        </div>
+        <div class="page">
+          <h3>Фамилия, Имя, Отчество - Егоров Захар Александрович.</h3>
+          <p>Опыт работы - УП проходил на базе "СПК", за время прохождения практики получил следующие навыки: создание и
+            разработка сайта, освоил графические программы, освоил мультимедийные технологии, изучил языки
+            программирования, освоил создание базы и программирование в "1С:Предприятие 8".
+            ПП проходил на предприятии (СТИ НИЯУ МИФИ). Приобрел навыки программирования с использованием фреймворков
+            Yii2, Django, Laravel.</p>
+          <ul>
+            <h3>Изученные языки программирования</h3>
+            <li>C#</li>
+            <li>php</li>
+            <li>js</li>
+            <li>python</li>
+            <li>1C Программирование</li>
+          </ul>
+
+        </div>
+      </section>
+    </div>
+  </div>
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+  <script>
+    $(".gallery-list").magnificPopup({
+      delegate: "a",
+      type: "image",
+      gallery: {
+        enabled: true
+      }
+    });
+  </script>
+</body>
+
+</html>
